@@ -67,7 +67,6 @@ export default function LandingPage() {
           buttons={[
             { text: "Start Your Project", href: "#contact" }
           ]}
-          useInvertedBackground={false}
         />
       </div>
       <div id="about" data-section="about">
@@ -154,6 +153,7 @@ export default function LandingPage() {
             "TechInnovate Corp",            "Global Solutions Inc.",            "Apex Systems",            "FutureBridge Group",            "Quantum Dynamics",            "Strategic Ventures",            "Horizon Digital",            "Catalyst Innovations",            "Pinnacle Tech",            "VentureWorks"
           ]}
           useInvertedBackground={false}
+          textboxLayout="default"
         />
       </div>
       <div id="faq" data-section="faq">
